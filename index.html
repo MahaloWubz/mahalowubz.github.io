@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mahalo Wubz | Links</title>
+
+<!--
+  ============================================================
+  HOW TO EDIT THIS PAGE (no coding experience needed)
+  ============================================================
+  1. Open this file in any text editor (Notepad, TextEdit, etc.)
+  2. Find the section below marked "EDIT YOUR INFO HERE"
+  3. Replace the placeholder text/links with your real info
+  4. Save the file and re-upload it wherever it's hosted
+
+  HOW TO PUBLISH THIS PAGE (pick one, all free):
+  - Carrd.co / Linktree.com: easiest, no file needed — just recreate
+    the same links there.
+  - Netlify Drop (app.netlify.com/drop): drag this file in, get a
+    live link instantly. No account required.
+  - GitHub Pages: upload as "index.html" to a GitHub repo, turn on
+    Pages in repo settings.
+  - Any web host: rename to "index.html" and upload via FTP/cPanel.
+
+  Whichever you choose, you own the account — no one else's
+  password or login is needed to manage this page going forward.
+  ============================================================
+-->
+
+<style>
+  :root {
+    --bg-deep: #0a0611;
+    --bg-mid: #1a0f2e;
+    --bg-glow: #12241c;
+    --moss: #3f6b4a;
+    --fae-glow: #ff8fd6;
+    --fae-glow-soft: #ffc2ec;
+    --lilac: #a45bff;
+    --electric: #4de8ff;
+    --card-bg: rgba(40, 20, 55, 0.45);
+    --card-border: rgba(164, 91, 255, 0.25);
+    --text-main: #f6ecff;
+    --text-sub: #c0a8d8;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body { height: 100%; }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+    background:
+      radial-gradient(ellipse 70% 45% at 50% 0%, rgba(255,143,214,0.12), transparent 60%),
+      radial-gradient(ellipse 60% 40% at 85% 15%, rgba(77,232,255,0.10), transparent 65%),
+      radial-gradient(ellipse 55% 35% at 10% 85%, rgba(63,107,74,0.25), transparent 70%),
+      linear-gradient(180deg, var(--bg-deep) 0%, var(--bg-mid) 50%, var(--bg-glow) 100%);
+    font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', Palatino, serif;
+    color: var(--text-main);
+    display: flex;
+    justify-content: center;
+    padding: 48px 16px;
+  }
+
+  /* soft glowing moon */
+  body::before {
+    content: "";
+    position: fixed;
+    top: 6%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 35%, #fff0fb, #e6b8ff 55%, rgba(230,184,255,0) 75%);
+    box-shadow: 0 0 60px 20px rgba(164,91,255,0.2);
+    opacity: 0.55;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  /* drifting fireflies */
+  body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    background-image:
+      radial-gradient(2px 2px at 12% 22%, var(--fae-glow) 0%, rgba(255,143,214,0) 70%),
+      radial-gradient(2px 2px at 82% 15%, var(--electric) 0%, rgba(77,232,255,0) 70%),
+      radial-gradient(2px 2px at 68% 60%, var(--lilac) 0%, rgba(164,91,255,0) 70%),
+      radial-gradient(2px 2px at 22% 75%, var(--fae-glow-soft) 0%, rgba(255,194,236,0) 70%),
+      radial-gradient(1.5px 1.5px at 90% 82%, var(--electric) 0%, rgba(77,232,255,0) 70%),
+      radial-gradient(1.5px 1.5px at 40% 40%, var(--fae-glow) 0%, rgba(255,143,214,0) 70%),
+      radial-gradient(1.5px 1.5px at 55% 90%, #8fffb0 0%, rgba(143,255,176,0) 70%);
+    animation: flicker 5s ease-in-out infinite alternate;
+  }
+
+  @keyframes flicker {
+    0%   { opacity: 0.35; }
+    30%  { opacity: 0.9; }
+    50%  { opacity: 0.4; }
+    70%  { opacity: 1; }
+    100% { opacity: 0.5; }
+  }
+
+  .page {
+    width: 100%;
+    max-width: 460px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .vines {
+    width: 100%;
+    height: 46px;
+    margin-bottom: 6px;
+    opacity: 0.65;
+  }
+
+  .avatar {
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    margin: 0 auto 18px;
+    background: radial-gradient(circle at 35% 30%, #ffe0f7, #a45bff 55%, #2d1650 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 46px;
+    font-weight: 700;
+    font-family: Georgia, serif;
+    color: #1a0f2e;
+    box-shadow: 0 0 0 3px rgba(255,143,214,0.2), 0 0 32px 8px rgba(164,91,255,0.35), 0 8px 24px rgba(0,0,0,0.5);
+  }
+
+  h1 {
+    font-size: 24px;
+    margin: 0 0 8px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: var(--fae-glow-soft);
+    text-shadow: 0 0 18px rgba(255,143,214,0.4);
+  }
+
+  p.bio {
+    color: var(--text-sub);
+    font-size: 14px;
+    font-style: italic;
+    margin: 0 0 32px;
+    line-height: 1.6;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  a.link-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: var(--card-bg);
+    backdrop-filter: blur(3px);
+    border: 1px solid var(--card-border);
+    border-radius: 16px;
+    padding: 16px 18px;
+    text-decoration: none;
+    color: var(--text-main);
+    font-weight: 600;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+
+  a.link-card:hover {
+    background: rgba(164,91,255,0.14);
+    border-color: rgba(77,232,255,0.45);
+    transform: translateY(-2px);
+    box-shadow: 0 0 22px rgba(255,143,214,0.22);
+  }
+
+  .icon {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0 0 4px rgba(255,143,214,0.4));
+  }
+
+  .icon svg { width: 100%; height: 100%; }
+
+  footer {
+    margin-top: 44px;
+    color: rgba(255,143,214,0.45);
+    font-size: 12px;
+    font-style: italic;
+  }
+
+  footer a { color: rgba(77,232,255,0.6); }
+</style>
+</head>
+<body>
+
+<div class="page">
+
+  <!-- ============ EDIT YOUR INFO HERE ============ -->
+
+  <svg class="vines" viewBox="0 0 400 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 30 C 60 10, 100 40, 160 20 S 260 10, 320 28 S 380 12, 400 24" stroke="#3f6b4a" stroke-width="2" fill="none" opacity="0.7"/>
+    <circle cx="60" cy="17" r="3" fill="#ff8fd6"/>
+    <circle cx="160" cy="20" r="2.2" fill="#4de8ff"/>
+    <circle cx="260" cy="12" r="2.6" fill="#a45bff"/>
+    <circle cx="340" cy="20" r="2.2" fill="#ff8fd6"/>
+  </svg>
+
+  <div class="avatar">🧚‍♀️</div>
+
+  <h1>Mahalo Wubz</h1>
+  <p class="bio">a fairy with a shotgun &middot; cottage in the woods energy ✦ wander through the links below</p>
+
+  <div class="links">
+
+    <!-- Instagram (main) -->
+    <a class="link-card" href="https://www.instagram.com/mahalowubz" target="_blank" rel="noopener">
+      <span class="icon">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3.5a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11Zm0 2a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7ZM18 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z" fill="#f5f5f7"/></svg>
+      </span>
+      Instagram
+    </a>
+
+    <!-- Instagram Channel (broadcast channel link you shared) -->
+    <a class="link-card" href="https://www.instagram.com/channel/AbZJsCnJMsLelj2y/" target="_blank" rel="noopener">
+      <span class="icon">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3.5a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11Zm0 2a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7ZM18 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z" fill="#f5f5f7"/></svg>
+      </span>
+      Instagram Broadcast Channel
+    </a>
+
+    <!-- TikTok — REPLACE with real profile URL -->
+    <a class="link-card" href="https://www.tiktok.com/@YOUR_HANDLE" target="_blank" rel="noopener">
+      <span class="icon">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M16.5 2h-3v13.6a3.1 3.1 0 1 1-2.2-2.97V9.5a6.1 6.1 0 1 0 5.2 6.03V8.9a7.9 7.9 0 0 0 4.5 1.4V7.3a4.9 4.9 0 0 1-4.5-3.3V2Z" fill="#f5f5f7"/></svg>
+      </span>
+      TikTok
+    </a>
+
+    <!-- Spotify — REPLACE with real artist/profile URL -->
+    <a class="link-card" href="https://open.spotify.com/artist/YOUR_ARTIST_ID" target="_blank" rel="noopener">
+      <span class="icon">
+        <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#f5f5f7"/><path d="M7 9.7c3-1 6.6-.8 9 .6M7.5 13c2.5-.8 5.3-.6 7.5.6M8 16c2-.6 4-.5 5.5.4" stroke="#16213e" stroke-width="1.3" stroke-linecap="round"/></svg>
+      </span>
+      Spotify
+    </a>
+
+    <!-- SoundCloud -->
+    <a class="link-card" href="https://soundcloud.com/kat-harbort" target="_blank" rel="noopener">
+      <span class="icon">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M3 13.5v4h1v-4H3Zm2-1v5h1v-5H5Zm2 .5v4.5h1v-4.5H7Zm2-1.5v6h1V11H9Zm2-2v8h1V9h-1Zm2 .5A4.5 4.5 0 0 1 21 14a3.2 3.2 0 0 1-3.2 3.2H13V9.9a3.5 3.5 0 0 1 0-.4Z" fill="#f5f5f7"/></svg>
+      </span>
+      SoundCloud
+    </a>
+
+    <!-- Snapchat -->
+    <a class="link-card" href="https://www.snapchat.com/@biglaniii4k" target="_blank" rel="noopener">
+      <span class="icon">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M12 2c2.6 0 4.5 2.1 4.5 5v1.6c0 .3.2.5.5.6.7.2 1.5.1 2 .6.3.3.2.8-.2 1l-1.3.6c-.2.1-.3.4-.1.6.5.9 1.4 1.7 2.5 2 .3.1.4.5.1.7-.5.4-1.3.6-2 .8-.1.3-.2.7-.3 1-.1.3-.3.4-.6.3-.6-.1-1.2-.2-1.8 0-.6.2-1.1.6-1.7 1-.7.4-1.5.7-2.6.7s-1.9-.3-2.6-.7c-.6-.4-1.1-.8-1.7-1-.6-.2-1.2-.1-1.8 0-.3.1-.5 0-.6-.3-.1-.3-.2-.7-.3-1-.7-.2-1.5-.4-2-.8-.3-.2-.2-.6.1-.7 1.1-.3 2-1.1 2.5-2 .2-.2.1-.5-.1-.6l-1.3-.6c-.4-.2-.5-.7-.2-1 .5-.5 1.3-.4 2-.6.3-.1.5-.3.5-.6V7c0-2.9 1.9-5 4.5-5Z" fill="#f5f5f7"/></svg>
+      </span>
+      Snapchat
+    </a>
+
+    <!-- Threads — REPLACE with real profile URL -->
+    <a class="link-card" href="https://www.threads.net/@YOUR_HANDLE" target="_blank" rel="noopener">
+      <span class="icon">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M12 2C6.5 2 3 5.8 3 12s3.5 10 9 10c3.7 0 6.4-1.7 7.7-4.5l-2-1c-1 2-2.9 3.2-5.4 3.2-3.6 0-5.9-2.3-6.2-6h13.8c.1-.6.1-1 .1-1.4C20 5.7 17 2 12 2Zm-5.7 8.3c.5-2.7 2.4-4.3 5.5-4.3 2.9 0 4.7 1.5 5.1 4.3H6.3Z" fill="#f5f5f7"/></svg>
+      </span>
+      Threads
+    </a>
+
+  </div>
+
+  <!-- ============ END EDIT SECTION ============ -->
+
+  <footer>✦ cottage in the woods, shotgun by the door ✦</footer>
+
+</div>
+
+</body>
+</html>
